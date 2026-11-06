@@ -4,7 +4,7 @@
 
 ## 다운로드
 
-최신 버전 0.2.3 — [Releases](https://github.com/parkrye/AppProject_EasyDoPhoto/releases)에서 `EasyDoPhoto-<버전>.apk`를 받아 설치. Android 11 이상.
+최신 버전 0.2.4 — [Releases](https://github.com/parkrye/AppProject_EasyDoPhoto/releases)에서 `EasyDoPhoto-<버전>.apk`를 받아 설치. Android 11 이상.
 
 - 처음 설치 시 "출처를 알 수 없는 앱" 설치 허용 필요. Play 프로텍트가 검사 화면을 띄울 수 있음
 - 업데이트는 새 APK를 같은 방식으로 덮어 설치. 설정 · 내 프리셋 유지
@@ -16,7 +16,7 @@
 
 | 도구 | 내용 |
 |---|---|
-| 카메라 | 촬영 프리셋 16종 실시간 미리보기, 화각 · 촬영 각도 · 렌즈 효과 포함 세부 조절 후 내 프리셋으로 저장, 플래시 · 타이머 · 비율 · 격자 · 확대 · 초점 · 밝기, QR 모드(QR 코드 읽기 · 웹 링크 열기 · 복사) |
+| 카메라 | 촬영 프리셋 16종 실시간 미리보기, 화각 · 촬영 각도 · 렌즈 효과 포함 세부 조절 후 내 프리셋으로 저장, 촬영 처리(자동 보정 · HDR · 야간, 기기 지원 시) · 화질(최고 · 높음 · 보통) · 플래시 · 타이머 · 비율 · 격자 · 확대 · 초점 · 밝기, QR 모드(QR 코드 읽기 · 웹 링크 열기 · 복사) |
 | 앨범 | 전체 사진 날짜별 격자, 폴더별 보기, 여러 장 선택 · 공유 · 삭제, 사진 확대 · 정보 · 편집 |
 | 회전 · 반전 | 좌우 · 상하 반전, 90도 회전, ±45° 0.1도 단위 회전, 상하 · 좌우 기울기, 가로 · 세로 기울임 |
 | 자르기 | 자유 · 고정 비율 |
@@ -43,7 +43,7 @@
 
 인터넷 권한 없음 · 광고 없음 · 수집 · 전송 없음.
 
-- 사진은 기기 안에서만 처리. 저장하는 사진에 EXIF · 위치 정보를 넣지 않음
+- 사진은 기기 안에서만 처리. 저장하는 사진에 EXIF · 위치 정보를 넣지 않음(촬영 사진은 방향 정보만)
 - 권한은 카메라(촬영)와 사진 읽기(앨범)만 사용. 사진 권한을 거부하면 앱이 저장한 사진만 보임
 - 사진 삭제는 항상 시스템 확인 창을 거침
 - 설정과 내 프리셋은 기기 안에만 저장. 앱 안 백업(`easydophoto-backup-yyyy-MM-dd.json`)으로 보관
@@ -63,6 +63,7 @@
 | [EasyDoMix](https://github.com/parkrye/AppProject_EasyDoMix) | 영상 · 오디오 편집 | Android |
 | [EasyDoRecord](https://github.com/parkrye/AppProject_EasyDoRecord) | 녹음 | Android |
 | [EasyDoStudio](https://github.com/parkrye/DesktopProject_EasyDoStudio) | 화면 녹화 · 영상 편집 | Windows |
+| [EasyDoMusic](https://github.com/parkrye/MultiProject_EasyDoMusic) | MIDI 연주 · 작곡 | Android · Windows |
 
 ## 라이선스
 
